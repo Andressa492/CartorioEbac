@@ -154,6 +154,11 @@ int main ()
    deletar();
    break;
    
+   case 4:
+   printf ("Obrigada por utilizar o sistema!\n");
+   return 0;
+   break;	
+   
    default:
    printf("A opção que você escolheu não está disponivel\n");
    system("pause"); 
